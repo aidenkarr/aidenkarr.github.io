@@ -1,31 +1,7 @@
 body {
     background-image: url("images/background1.png");
 }
-p {
-    color:#8ffe09;
-    margin-left: 20px;
-}
-h1 {
-    color:#8ffe09;
-    margin-left: 20px;
-}
-h2 {
-    color:#8ffe09;
-    margin-left: 20px;
-}
-h3 {
-    color:#8ffe09;
-    margin-left: 20px;
-}
-h4 {
-    color:#8ffe09;
-    margin-left: 20px;
-}
-h5 {
-    color:#8ffe09;
-    margin-left: 20px;
-}
-h6 {
+p,h1,h2,h3,h4,h5,h6,li {
     color:#8ffe09;
     margin-left: 20px;
 }
@@ -38,7 +14,7 @@ a {
     color:white;
     margin-left: 20px;
 }
-li {
+marquee {
     color:#8ffe09;
-    margin-left: 20px;
+    font-size: 22px;
 }
