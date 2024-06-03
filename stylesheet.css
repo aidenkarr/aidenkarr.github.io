@@ -5,7 +5,7 @@ p,h1,h2,h3,h4,h5,h6,li {
     color:#8ffe09;
     margin-left: 20px;
 }
-img {
+.title-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -15,7 +15,7 @@ a {
     color:white;
     margin-left: 20px;
 }
-marquee {
+.marquee {
     color:#8ffe09;
     font-size: 22px;
 }
