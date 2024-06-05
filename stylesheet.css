@@ -31,16 +31,15 @@ a {
     color: #880808;
     background: black;
   }
-.flex-container {
+.flex-container-1 {
     display: flex;
 }
-.flex-container div {
-    background: yellow;
-    border: 2px black;
+.flex-container-1 div {
+    background-image: url("images/background2.png");
+    border: 10px black;
     height: 100px;
-    width: 250px;
     margin: 5px;
-    flex: 1 1 0%;
+    flex: 1;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
