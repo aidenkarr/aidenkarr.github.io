@@ -1,10 +1,12 @@
 body {
     background-image: url("images/background1.png");
 }
-p,h1,h2,h3,h4,h5,h6,li {
-    color:#8ffe09;
+
+p, h1, h2, h3, h4, h5, h6, li {
+    color: white;
     margin-left: 20px;
 }
+
 .title-image {
     img { 
         display: block;
@@ -14,37 +16,61 @@ p,h1,h2,h3,h4,h5,h6,li {
         margin-bottom: 10px;
     }
 }
+
 a {
-    color:white;
+    color:#8ffe09;
     margin-left: 20px;
 }
+
 .marquee {
     color:#8ffe09;
     font-size: 22px;
 }
-::-moz-selection { /* Code for Firefox */
+
+::-moz-selection {
     color: #880808;
     background: black;
-  }
-  
-  ::selection {
+}
+
+::selection {
     color: #880808;
     background: black;
-  }
+}
+
 .flex-container-1 {
     display: flex;
 }
-.flex-container-1 div {
+
+.sidebar, .intro, .image-container, .rant {
     background-image: url("images/background2.png");
-    border: 10px black;
-    height: 100px;
-    margin: 5px;
+    border: 2px inset #8ffe09;
+}
+
+.sidebar {
+    flex: 1;
+    margin-left: 200px;
+    margin-right: 30px;
+}
+
+.main-content {
+    flex: 5 0 0%;
+    margin-right: 200px;
+}
+
+.bottom-main-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.image-container {
     flex: 1;
 }
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+.rant {
+    flex: 5 0 0%;
+}
 
-obviously needs to be reworked to not be shit
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 important colors here are ACID GREEN #8ffe09 and BLOOD RED #880808
 
