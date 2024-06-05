@@ -22,6 +22,15 @@ a {
     color:#8ffe09;
     font-size: 22px;
 }
+::-moz-selection { /* Code for Firefox */
+    color: #880808;
+    background: black;
+  }
+  
+  ::selection {
+    color: #880808;
+    background: black;
+  }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
