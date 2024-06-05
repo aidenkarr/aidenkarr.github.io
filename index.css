@@ -1,13 +1,85 @@
-title {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    h2 {
-        color:white;
-        text-align:center;
-    }
-}
 body {
     background-image: url("images/background1.png");
 }
+
+p, h1, h2, h3, h4, h5, h6, li, strong {
+    color: white;
+    margin: 20px;
+}
+
+.title-image {
+    img { 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+a {
+    color:#8ffe09;
+    margin-left: 20px;
+}
+
+.marquee {
+    color:white;
+    font-size: 22px;
+}
+
+::-moz-selection {
+    color: #880808;
+    background: black;
+}
+
+::selection {
+    color: #880808;
+    background: black;
+}
+
+.flex-container-1 {
+    display: flex;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.sidebar, .intro, .image-container, .rant {
+    background-image: url("images/background2.png");
+    border: 2px inset #8ffe09;
+    font-size: 18px;
+    line-height: 175%;
+}
+
+.sidebar {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.conjure, .transmute {
+    text-align: right;
+}
+
+.main-content {
+    flex: 5 0 0%;
+}
+
+.bottom-main-container {
+    display: flex;
+    margin-top: 10px;
+    width: 1225px;
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.rant {
+    flex: 5 0 0%;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+important colors here are ACID GREEN #8ffe09 and BLOOD RED #880808
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
