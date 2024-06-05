@@ -66,6 +66,7 @@ a {
 .bottom-main-container {
     display: flex;
     margin-top: 10px;
+    width: 1225px;
 }
 
 .image-container {
