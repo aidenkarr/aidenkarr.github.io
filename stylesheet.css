@@ -31,6 +31,17 @@ a {
     color: #880808;
     background: black;
   }
+.flex-container {
+    display: flex;
+}
+.flex-container div {
+    background: yellow;
+    border: 2px black;
+    height: 100px;
+    width: 250px;
+    margin: 5px;
+    flex: 1 1 0%;
+}
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
