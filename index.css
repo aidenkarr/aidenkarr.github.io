@@ -57,6 +57,7 @@ a {
 .sidebar {
     flex: 1;
     margin-right: 30px;
+    width: 249px;
 }
 
 .conjure, .transmute {
@@ -80,6 +81,10 @@ a {
 
 .rant {
     flex: 5 0 0%;
+}
+
+.intro {
+    width: 1225px;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
