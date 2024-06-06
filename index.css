@@ -5,6 +5,7 @@ body {
 p, h1, h2, h3, h4, h5, h6, li, strong {
     color: white;
     margin: 20px;
+    font-family:'Palatino Linotype', serif;
 }
 
 li {
@@ -24,6 +25,7 @@ li {
 a {
     color:#8ffe09;
     margin-left: 20px;
+    font-family:'Palatino Linotype', serif;
 }
 
 .marquee {
